@@ -1,4 +1,7 @@
 defmodule Hangman.Game do
+
+  alias Hangman.Dictionary
+
   defstruct(
     letters: [],
     game_state: :initializing,
